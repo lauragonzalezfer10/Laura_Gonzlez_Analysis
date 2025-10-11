@@ -52,15 +52,7 @@
           incrementally, committing progress after each class.
         </p>
 
-        <!-- List of project goals -->
-        <h3>Project Goals</h3>
-        <ul>
-          <li>Create a responsive, accessible website</li>
-          <li>Practice semantic HTML</li>
-          <li>Implement modern CSS techniques</li>
-          <li>Follow web accessibility guidelines</li>
-        </ul>
-      </section>
+        
 
       <!-- Weekly progress section -->
       <section>
@@ -73,7 +65,131 @@
           to see weekly progress.
         </p>
       </section>
+
+	  <!-- Complex card using only utilities -->
+<article class="card border-0 shadow-sm mb-4">
+	<div class="card-body p-4">
+		<div class="d-flex align-items-start mb-3">
+			<img src="avatar.jpg" class="rounded-circle me-3 flex-shrink-0" style="width: 48px; height: 48px;" alt="Author" />
+			<div class="flex-grow-1">
+				<h6 class="mb-1 fw-semibold">Article Title</h6>
+				<p class="text-muted small mb-2">By Author Name • 5 min read</p>
+				<div class="d-flex gap-2 flex-wrap">
+					<span class="badge bg-primary">Technology</span>
+					<span class="badge bg-secondary">Tutorial</span>
+				</div>
+			</div>
+			<button class="btn btn-link p-0 text-muted ms-2" aria-label="More options">
+				<svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+					<!-- ... -->
+				</svg>
+			</button>
+		</div>
+		<p class="card-text text-muted lh-base mb-3">
+			Article excerpt that demonstrates how utilities create consistent, maintainable layouts...
+		</p>
+		<div class="d-flex justify-content-between align-items-center">
+			<div class="d-flex align-items-center gap-3 text-muted small">
+				<span class="d-flex align-items-center gap-1">
+					<span>👍</span>
+					<span>42</span>
+				</span>
+				<span class="d-flex align-items-center gap-1">
+					<span>💬</span>
+					<span>8</span>
+				</span>
+			</div>
+			<a href="/article" class="btn btn-primary btn-sm px-3 py-2">Read More</a>
+		</div>
+	</div>
+</article>
     </main>
+
+
+	<!-- Main Content -->
+	<main class="py-4 py-md-5">
+		<div class="container">
+			<div class="row g-4">
+				<!-- Article Cards -->
+				<div class="col-12 col-md-6 col-lg-4">
+					<article class="card h-100 border-0 shadow-sm">
+						<div class="card-body p-4">
+							<div class="d-flex align-items-start mb-3">
+								<div
+									class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0"
+									style="width: 40px; height: 40px;">
+									📝
+								</div>
+								<div class="flex-grow-1">
+									<h6 class="card-title fw-semibold mb-1">Article Title</h6>
+									<p class="text-muted small mb-2">5 min read</p>
+								</div>
+							</div>
+							<p class="card-text text-muted lh-base">
+								Article description that adapts to different screen sizes using Bootstrap's responsive utilities.
+							</p>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4">
+					<article class="card h-100 border-0 shadow-sm">
+						<div class="card-body p-4">
+							<div class="d-flex align-items-start mb-3">
+								<div
+									class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0"
+									style="width: 40px; height: 40px;">
+									🎯
+								</div>
+								<div class="flex-grow-1">
+									<h6 class="card-title fw-semibold mb-1">Tutorial</h6>
+									<p class="text-muted small mb-2">10 min read</p>
+								</div>
+							</div>
+							<p class="card-text text-muted lh-base">
+								Step-by-step guide that demonstrates responsive layout techniques using utility classes.
+							</p>
+						</div>
+					</article>
+				</div>
+
+				<div class="col-12 col-md-6 col-lg-4">
+					<article class="card h-100 border-0 shadow-sm">
+						<div class="card-body p-4">
+							<div class="d-flex align-items-start mb-3">
+								<div
+									class="bg-info text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0"
+									style="width: 40px; height: 40px;">
+									💡
+								</div>
+								<div class="flex-grow-1">
+									<h6 class="card-title fw-semibold mb-1">Tips & Tricks</h6>
+									<p class="text-muted small mb-2">3 min read</p>
+								</div>
+							</div>
+							<p class="card-text text-muted lh-base">
+								Quick tips for mastering Bootstrap's utility-first approach to web development.
+							</p>
+						</div>
+					</article>
+				</div>
+
+				<!-- Hidden on mobile, visible on larger screens -->
+				<div class="col-12 col-lg-8 d-none d-lg-block">
+					<div class="card border-0 bg-light">
+						<div class="card-body p-4">
+							<h5 class="card-title mb-3">Sidebar Content</h5>
+							<p class="card-text">
+								This sidebar content is hidden on mobile devices to prioritize main content, then appears on large screens using
+								Bootstrap's responsive display utilities.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	
 
     <!-- Footer: copyright and useful links -->
     <footer>
