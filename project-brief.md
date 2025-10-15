@@ -1,9 +1,9 @@
 # Project Brief
 
-**Student:** [Your Name]  
-**Handle:** @[your-github-username]  
+**Student:** Laura González
+**Handle:** @lauragonzalezfer10
 **Course:** Web Design 2025 · Fall  
-**Date:** [Fill in date - Week 2]
+**Date:** 16 Oct 2025
 
 ---
 
@@ -11,17 +11,15 @@
 
 ### What are you building?
 
-<!-- Describe your project in 2-3 sentences -->
+The first project consists on analysing web tools in order to create a final portfolio.
 
 ### Who is it for?
 
-<!-- Define your target audience -->
+My target audience is everyone who is interested in my work and is captivated by a well-designed and visually-appealing web portfolio.
 
 ### Why does it matter?
 
-<!-- Explain the purpose and value of your project -->
-
----
+The main purpose is to analyse web tools and create my own portfolio to showcase my work and engage with the audience.
 
 ## Technical Approach
 
@@ -30,7 +28,7 @@
 - [ ] HTML5 (semantic markup)
 - [ ] CSS3 (responsive design)
 - [ ] JavaScript (if applicable)
-- [ ] Other: ****\_\_\_****
+- [ ] Other: \***\*\_\_\_\*\***
 
 ### Accessibility Goals
 
@@ -55,8 +53,8 @@
 
 ### Key Sections/Pages
 
-1.
-2.
+1. Main page
+2. Resources page
 3.
 
 ### Content Sources
@@ -65,8 +63,8 @@
 
 ### Multilingual Considerations
 
-- Primary language:
-- Secondary language (optional):
+- Primary language: English
+- Secondary language (optional): I would consider adding a Spanish option but I want to interact with people all over the world so English will be my main language.
 - Translation strategy:
 
 ---
