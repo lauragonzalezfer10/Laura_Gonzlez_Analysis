@@ -1691,6 +1691,20 @@
           legend.style.transition = "none";
         }
       })();
+      let lastScrollY = window.scrollY;
+const legend = document.querySelector('.legend-fixed');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > lastScrollY) {
+    // scrolling down → hide
+    legend.classList.add('legend-hidden');
+  } else {
+    // scrolling up → show
+    legend.classList.remove('legend-hidden');
+  }
+  lastScrollY = window.scrollY;
+});
+
     </script>
   </body>
 </html>

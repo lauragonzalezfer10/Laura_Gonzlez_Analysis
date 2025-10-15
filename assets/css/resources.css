@@ -689,13 +689,12 @@ a.btn[aria-disabled="true"] {
 
 /* =========================
    Sticky Legend (Top bar)
-   - Visual style only; scroll behavior handled via JS to keep its position
 ========================= */
 .legend-fixed {
-  position: sticky; /* fixed so it won't "snap" to top on reveal */
+  position: sticky;
   top: var(--legend-offset, 64px);
   left: 0;
-  right: 0; /* full width */
+  right: 0;
   z-index: 1000;
   background: linear-gradient(90deg, #fdfdfd, #f7faff);
   border-bottom: 1px solid #e2e8f0;
@@ -707,36 +706,17 @@ a.btn[aria-disabled="true"] {
   flex-wrap: wrap;
   border-radius: 0 0 12px 12px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+
   transition: transform 0.25s ease, opacity 0.2s ease;
   will-change: transform, opacity;
 }
-.legend-fixed strong {
-  margin-right: 0.5rem;
-  color: #2b2d42;
-  font-weight: 600;
-  font-size: 0.95rem;
-}
-.legend-fixed .ico {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  background: #fff;
-  border: 1px solid #e2e8f0;
-  border-radius: 6px;
-  padding: 0 0.35rem;
-  font-size: 1rem;
-  margin-left: 0.3rem;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-  transition: transform 0.15s ease;
-}
-.legend-fixed .ico:hover {
-  transform: scale(1.2) rotate(-5deg);
-}
-.legend-fixed.is-hidden {
+
+/* Hidden state when scrolling down */
+.legend-hidden {
   transform: translateY(-100%);
   opacity: 0;
-  pointer-events: none;
 }
+
 @media (prefers-reduced-motion: reduce) {
   .legend-fixed {
     transition: none;
