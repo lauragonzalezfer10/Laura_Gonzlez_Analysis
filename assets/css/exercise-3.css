@@ -1,0 +1,25 @@
+.spacer-xs {
+  height: 0.5rem;
+}
+.spacer-sm {
+  height: 1rem;
+}
+.spacer-md {
+  height: 2rem;
+}
+.spacer-lg {
+  height: 4rem;
+}
+
+Custom text utilities .text-gradient {
+  background: linear-gradient(135deg, var(--bs-primary), var(--bs-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+Glass morphism effect .glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}

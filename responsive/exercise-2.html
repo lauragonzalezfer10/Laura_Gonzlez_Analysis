@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio - Basic Responsive</title>
+    <link rel="stylesheet" href="exercise-2.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- Responsive Header -->
+      <header class="bg-primary text-white py-3 py-md-4 py-lg-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12 col-md-8 col-lg-9">
+              <h1 class="display-4 display-md-3 display-lg-2 fw-bold mb-0">
+                Responsive Header
+              </h1>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 text-md-end mt-3 mt-md-0">
+              <button class="btn btn-light btn-lg px-4">Get Started</button>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <!-- Main Content -->
+      <main class="py-4 py-md-5">
+        <div class="container">
+          <div class="row g-4">
+            <!-- Article Cards -->
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                  <div class="d-flex align-items-start mb-3">
+                    <div
+                      class="bg-primary text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0"
+                      style="width: 40px; height: 40px"
+                    >
+                      📝
+                    </div>
+                    <div class="flex-grow-1">
+                      <h6 class="card-title fw-semibold mb-1">Article Title</h6>
+                      <p class="text-muted small mb-2">5 min read</p>
+                    </div>
+                  </div>
+                  <p class="card-text text-muted lh-base">
+                    Article description that adapts to different screen sizes
+                    using Bootstrap's responsive utilities.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                  <div class="d-flex align-items-start mb-3">
+                    <div
+                      class="bg-success text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0"
+                      style="width: 40px; height: 40px"
+                    >
+                      🎯
+                    </div>
+                    <div class="flex-grow-1">
+                      <h6 class="card-title fw-semibold mb-1">Tutorial</h6>
+                      <p class="text-muted small mb-2">10 min read</p>
+                    </div>
+                  </div>
+                  <p class="card-text text-muted lh-base">
+                    Step-by-step guide that demonstrates responsive layout
+                    techniques using utility classes.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+              <article class="card h-100 border-0 shadow-sm">
+                <div class="card-body p-4">
+                  <div class="d-flex align-items-start mb-3">
+                    <div
+                      class="bg-info text-white rounded-circle d-flex align-items-center justify-content-center me-3 flex-shrink-0"
+                      style="width: 40px; height: 40px"
+                    >
+                      💡
+                    </div>
+                    <div class="flex-grow-1">
+                      <h6 class="card-title fw-semibold mb-1">Tips & Tricks</h6>
+                      <p class="text-muted small mb-2">3 min read</p>
+                    </div>
+                  </div>
+                  <p class="card-text text-muted lh-base">
+                    Quick tips for mastering Bootstrap's utility-first approach
+                    to web development.
+                  </p>
+                </div>
+              </article>
+            </div>
+
+            <!-- Hidden on mobile, visible on larger screens -->
+            <div class="col-12 col-lg-8 d-none d-lg-block">
+              <div class="card border-0 bg-light">
+                <div class="card-body p-4">
+                  <h5 class="card-title mb-3">Sidebar Content</h5>
+                  <p class="card-text">
+                    This sidebar content is hidden on mobile devices to
+                    prioritize main content, then appears on large screens using
+                    Bootstrap's responsive display utilities.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Footer -->
+      <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+          <p class="mb-2">
+            &copy; 2024 Bootstrap Utilities Demo. Built with utility classes.
+          </p>
+          <div class="d-flex justify-content-center gap-3">
+            <a href="#" class="text-white text-decoration-none">Privacy</a>
+            <a href="#" class="text-white text-decoration-none">Terms</a>
+            <a href="#" class="text-white text-decoration-none">Support</a>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
