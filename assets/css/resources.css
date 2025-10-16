@@ -576,7 +576,7 @@ a.btn[aria-disabled="true"] {
 }
 
 /* =========================
-   (Optional) Classification Table
+   Classification Table
 ========================= */
 .classify-table {
   width: 100%;
@@ -811,17 +811,6 @@ a.btn[aria-disabled="true"] {
   color: #075985;
   font-weight: 600;
 }
-
-/* =========================
-   Back to Top (centered)
-========================= */
-.back-to-top-container {
-  text-align: center;
-  margin: 4rem 0;
-}
-a.back-to-top {
-  display: inline-flex;
-} /* styled by unified button rules */
 
 /* =========================
    Footer
