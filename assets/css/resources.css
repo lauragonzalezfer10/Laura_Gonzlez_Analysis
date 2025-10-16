@@ -406,20 +406,6 @@ section {
   transition: transform 0.3s ease;
   cursor: pointer;
 }
-.card-media:hover img {
-  transform: scale(1.1);
-  filter: brightness(1.05);
-}
-figure img {
-  cursor: zoom-in;
-  transition: transform 0.4s ease;
-}
-figure img.zoomed {
-  transform: scale(2);
-  cursor: zoom-out;
-  z-index: 10;
-  position: relative;
-}
 
 /* =========================
    Unified Buttons
@@ -840,29 +826,6 @@ a.back-to-top {
 
 /* =========================
    Footer
-========================= */
-footer {
-  margin-top: 4rem;
-  padding: 1.5rem 1rem;
-  text-align: center;
-  font-size: 0.9rem;
-  color: var(--muted);
-  background: #f9fafb;
-  border-top: 1px solid #e5e7eb;
-}
-footer span#y {
-  font-weight: 600;
-  color: var(--brand-ink);
-}
-footer .disclaimer {
-  display: block;
-  margin-top: 0.35rem;
-  font-size: 0.8rem;
-  color: #9ca3af;
-}
-
-/* =========================
-   back arrow
 ========================= */
 footer {
   margin-top: 4rem;

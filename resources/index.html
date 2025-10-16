@@ -1672,26 +1672,6 @@
     </footer>
 
     <script>
-      // Legend: hide on scroll down, show on scroll up; keep position//
-
-      (function () {
-        const btn = document.getElementById("hamburger");
-        const mobile = document.getElementById("mobile-nav");
-        if (!btn || !mobile) return;
-
-        btn.addEventListener("click", () => {
-          const open = mobile.classList.toggle("show");
-          btn.setAttribute("aria-expanded", open ? "true" : "false");
-        });
-
-        mobile.querySelectorAll("a")?.forEach((a) =>
-          a.addEventListener("click", () => {
-            mobile.classList.remove("show");
-            btn.setAttribute("aria-expanded", "false");
-          })
-        );
-      })();
-
       // Legend: hide on scroll down, show on scroll up; keep position
       (function () {
         const legend = document.querySelector(".legend-fixed");
