@@ -17,6 +17,27 @@
     <a class="sr-only" href="#content">Skip to content</a>
 
     <header>
+      <!-- Back arrow -->
+      <a id="back-link" class="back-link" href="../" aria-label="Go back">
+        <!-- SVG flecha -->
+        <svg
+          width="40"
+          height="40"
+          viewBox="0 0 24 24"
+          aria-hidden="true"
+          focusable="false"
+        >
+          <path
+            d="M15 18l-6-6 6-6"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          />
+        </svg>
+      </a>
+
       <div class="container header-inner">
         <h1>
           Laura González Fernández - Bachelor in Multimedia and Graphic Design
@@ -1648,9 +1669,8 @@
     </footer>
 
     <script>
-      // =========================
-      // Mobile menu (only if #hamburger and #mobile-nav exist)
-      // =========================
+      // Legend: hide on scroll down, show on scroll up; keep position//
+
       (function () {
         const btn = document.getElementById("hamburger");
         const mobile = document.getElementById("mobile-nav");

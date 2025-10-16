@@ -860,3 +860,26 @@ footer .disclaimer {
   font-size: 0.8rem;
   color: #9ca3af;
 }
+
+/* =========================
+   back arrow
+========================= */
+footer {
+  margin-top: 4rem;
+  padding: 1.5rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  color: var(--muted);
+  background: #f9fafb;
+  border-top: 1px solid #e5e7eb;
+}
+footer span#y {
+  font-weight: 600;
+  color: var(--brand-ink);
+}
+footer .disclaimer {
+  display: block;
+  margin-top: 0.35rem;
+  font-size: 0.8rem;
+  color: #9ca3af;
+}
